@@ -21,7 +21,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    title: "Which Are the Best Investments in Singapore? It Depends — Follow Alex and Su Lin’s Journey",
+    title: "Best Investment Options in Singapore: Choosing What’s Right for You",
     excerpt: "Blog for approval",
     imageUrl: "/blog-one.png",
     date: "Apr 4",
