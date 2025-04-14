@@ -118,6 +118,185 @@ export default function BlogOneArticlePage() {
           <div className="prose prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: htmlContent }} />
         </CardContent>
       </Card>
+      <h2 className="text-2xl font-bold">References</h2>
+      <p>
+        Ask.gov.sg. (n.d.). There are no coupon payments for Treasury bills. Retrieved from{" "}
+        <a
+          href="https://ask.gov.sg/mas/questions/clx8ktis0009rryozmmvbwkqm"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://ask.gov.sg/mas/questions/clx8ktis0009rryozmmvbwkqm
+        </a>
+      </p>
+      <p>
+        Ask.gov.sg. (n.d.b). What are the fees involved in Savings Bonds?. Retrieved from{" "}
+        <a
+          href="https://ask.gov.sg/mas/questions/clx8ktirx008bryozek1ytnli"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://ask.gov.sg/mas/questions/clx8ktirx008bryozek1ytnli
+        </a>
+      </p>
+      <p>
+        Central Provident Fund Board. (n.d.a). What are the CPF interest rates?. Retrieved from{" "}
+        <a
+          href="https://www.cpf.gov.sg/service/article/what-are-the-cpf-interest-rates"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.cpf.gov.sg/service/article/what-are-the-cpf-interest-rates
+        </a>
+      </p>
+      <p>
+        Central Provident Fund Board. (n.d.b). Using Your CPF for Investments. Retrieved from{" "}
+        <a
+          href="https://www.cpf.gov.sg/member/growing-your-savings/investments/using-your-cpf-for-investments"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.cpf.gov.sg/member/growing-your-savings/investments/using-your-cpf-for-investments
+        </a>
+      </p>
+      <p>
+        Channel News Asia. (2024, April 26). UOB, OCBC cut interest rates for some savings accounts from May 1. Retrieved from{" "}
+        <a
+          href="https://www.channelnewsasia.com/singapore/uob-ocbc-cut-interest-rates-savings-accounts-may-1-5037086"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.channelnewsasia.com/singapore/uob-ocbc-cut-interest-rates-savings-accounts-may-1-5037086
+        </a>
+      </p>
+      <p>
+        DBS Bank. (n.d.). Multiplier Account. Retrieved from{" "}
+        <a
+          href="https://www.dbs.com.sg/personal/deposits/bank-earn/multiplier"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.dbs.com.sg/personal/deposits/bank-earn/multiplier
+        </a>
+      </p>
+      <p>
+        Factually. (2023, February 23). The Singapore Government has no net debt. We have a strong balance sheet with assets in excess of liabilities.
+        Retrieved from{" "}
+        <a
+          href="https://www.factually.gov.sg/corrections-and-clarifications/the-singapore-government-has-no-net-debt-we-have-a-strong-balance-sheet-with-assets-in-excess-of-liabilities"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.factually.gov.sg/corrections-and-clarifications/the-singapore-government-has-no-net-debt-we-have-a-strong-balance-sheet-with-assets-in-excess-of-liabilities
+        </a>
+      </p>
+      <p>
+        Central Provident Fund Board. (n.d.a). What are the CPF interest rates? Retrieved from{" "}
+        <a
+          href="https://www.cpf.gov.sg/service/article/what-are-the-cpf-interest-rates"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.cpf.gov.sg/service/article/what-are-the-cpf-interest-rates
+        </a>
+      </p>
+      <p>
+        Central Provident Fund Board. (n.d.b). Earning attractive interest. Retrieved from{" "}
+        <a
+          href="https://www.cpf.gov.sg/member/growing-your-savings/earning-higher-returns/earning-attractive-interest"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.cpf.gov.sg/member/growing-your-savings/earning-higher-returns/earning-attractive-interest
+        </a>
+      </p>
+      <p>
+        Central Provident Fund Board. (n.d.c). Earning attractive interest. Retrieved from{" "}
+        <a
+          href="https://www.cpf.gov.sg/member/growing-your-savings/earning-higher-returns/earning-attractive-interest"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.cpf.gov.sg/member/growing-your-savings/earning-higher-returns/earning-attractive-interest
+        </a>
+      </p>
+      <p>
+        Central Provident Fund Board. (n.d.d). Earning attractive interest. Retrieved from{" "}
+        <a
+          href="https://www.cpf.gov.sg/member/growing-your-savings/earning-higher-returns/earning-attractive-interest"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.cpf.gov.sg/member/growing-your-savings/earning-higher-returns/earning-attractive-interest
+        </a>
+      </p>
+      <p>
+        Central Provident Fund Board. (n.d.e). Earning attractive interest. Retrieved from{" "}
+        <a
+          href="https://www.cpf.gov.sg/member/growing-your-savings/earning-higher-returns/earning-attractive-interest"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.cpf.gov.sg/member/growing-your-savings/earning-higher-returns/earning-attractive-interest
+        </a>
+      </p>
+      <p>
+        Central Provident Fund Board. (n.d.f). Withdrawing for immediate retirement needs. Retrieved from{" "}
+        <a
+          href="https://www.cpf.gov.sg/member/retirement-income/retirement-withdrawals/withdrawing-for-immediate-retirement-needs"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.cpf.gov.sg/member/retirement-income/retirement-withdrawals/withdrawing-for-immediate-retirement-needs
+        </a>
+      </p>
+      <p>
+        MoneySense. (n.d.). Assess current situation. Retrieved from{" "}
+        <a
+          href="https://www.mymoneysense.gov.sg/retirement-resources/assess-current-situation"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.mymoneysense.gov.sg/retirement-resources/assess-current-situation
+        </a>
+      </p>
+      <p>
+        MoneySense. (n.d.). Guide to ETFs: How synthetic ETFs work. Retrieved from{" "}
+        <a
+          href="https://www.moneysense.gov.sg/guide-to-etfs-how-synthetic-etfs-work/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.moneysense.gov.sg/guide-to-etfs-how-synthetic-etfs-work/
+        </a>
+      </p>
+      <p>
+        REITAS. (n.d.a). Overview of the S-REIT industry. Retrieved from{" "}
+        <a
+          href="https://www.reitas.sg/singapore-reits/overview-of-the-s-reit-industry/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          https://www.reitas.sg/singapore-reits/overview-of-the-s-reit-industry/
+        </a>
+      </p>
     </main>
+    
   )
 }
