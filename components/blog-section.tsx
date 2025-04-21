@@ -11,22 +11,42 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 const blogPosts = [
   {
     id: 1,
-    title: "Popular Investment Opportunities in Singapore",
-    excerpt: "Sample Structure/Content Table",
-    imageUrl: "/image_1.png",
-    date: "Apr 1, 2025",
-    readTime: "N/A",
-    url: "/sample-data",
-    status: "pending",
-  },
-  {
-    id: 2,
     title: "Best Investment Options in Singapore: Choosing What’s Right for You",
     excerpt: "Blog for approval",
     imageUrl: "/blog-one.png",
     date: "Apr 4",
     readTime: "10 mins",
     url: "/blog-one",
+    status: "pending",
+  },
+  {
+    id: 2,
+    title: "No‑Nonsense Excel Finance Tracker: Manage Your Money Like a Pro 💰📊",
+    excerpt: "Blog for approval",
+    imageUrl: "/blog-two.png",
+    date: "Apr 1, 2025",
+    readTime: "N/A",
+    url: "https://docs.google.com/document/d/16IvDpdUsSSYrVFyET-6EZquZHR5AIC7M5JqOoIw6ETY/edit?tab=t.0#heading=h.lpxk9dbouiih",
+    status: "pending",
+  },
+  {
+    id: 3,
+    title: "Singapore Budget 2025 Simplified: What You Need to Know",
+    excerpt: "Blog for approval",
+    imageUrl: "/blog-three.png",
+    date: "Apr 21",
+    readTime: "5 mins",
+    url: "https://docs.google.com/document/d/10vpHuksHQXXIJoT86dKXVuiOhGbnFK1Qj8YEgiypWb4/edit?tab=t.0#heading=h.4qiq79s0g25r",
+    status: "pending",
+  },
+  {
+    id: 4,
+    title: "The Ultimate Guide to Mutual Funds in Singapore (2025 Edition)",
+    excerpt: "Blog for approval",
+    imageUrl: "/blog-four.png",
+    date: "Apr 4",
+    readTime: "10 mins",
+    url: "https://docs.google.com/document/d/1g-McI3baU1M4ZtkNJG0WrjeYwdrY_lG_52Qw11LmIHg/edit?tab=t.0#heading=h.ghp5sj7xuv9e",
     status: "pending",
   },
   
@@ -94,7 +114,7 @@ export function BlogSection() {
 
         <CardFooter className="p-4 pt-0">
           <Button variant="link" className="px-0 text-primary" asChild>
-            <a href={post.url} className="flex items-center gap-1">
+            <a href={post.url}  target="_blank" className="flex items-center gap-1">
               Read more <ArrowRight className="h-3 w-3 ml-1" />
             </a>
           </Button>
