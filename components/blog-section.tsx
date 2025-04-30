@@ -21,7 +21,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    title: "No‑Nonsense Excel Finance Tracker: Manage Your Money Like a Pro 💰📊",
+    title: "A Simple Guide to Keep Track of Personal Finances, Budget Properly, and Track Expenses in Excel",
     excerpt: "Blog for approval",
     imageUrl: "/blog-two.png",
     date: "Apr 1, 2025",
