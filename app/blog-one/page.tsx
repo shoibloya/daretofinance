@@ -98,7 +98,7 @@ export default function BlogOneArticlePage() {
         <div className="flex justify-end">
           <Button asChild>
             <a
-              href="https://docs.google.com/document/d/your-doc-id/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1uoXeKdFBxFZ7SL_XIEyrDJVnV7lJkaPPqMmmyF9rFNI/edit?tab=t.0"
               target="_blank"
               rel="noopener noreferrer"
             >
