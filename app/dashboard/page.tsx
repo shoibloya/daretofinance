@@ -87,25 +87,7 @@ export default function DashboardClient() {
           ))}
         </motion.div>
 
-        {/* Task List & Agents */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="grid grid-cols-1 gap-6 lg:grid-cols-2"
-        >
-          <motion.div variants={itemVariants}>
-            <TaskCalendar />
-          </motion.div>
-
-          <motion.div variants={itemVariants}>
-            <Card className="overflow-hidden border bg-card/50 shadow-md backdrop-blur-sm">
-              <CardContent className="p-4">
-                <AgentsList />
-              </CardContent>
-            </Card>
-          </motion.div>
-        </motion.div>
+       
 
         {/* Blog Section */}
         <motion.div variants={containerVariants} initial="hidden" animate="visible">
