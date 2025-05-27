@@ -15,52 +15,20 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { outlines } from "@/lib/outline"; 
 
 const COMPANY_NAME = "Daretofinance";
-// Sample blog data - replace with your actual data source
-const seedPosts = [
-  {
-    id: 1,
-    title: "Best Investment Options in Singapore: Choosing What’s Right for You",
-    excerpt: "Blog for approval",
-    imageUrl: "/blog-one.png",
-    date: "Apr 4",
-    readTime: "10 mins",
-    url: "/blog-one",
-    status: "pending",
-  },
-  {
-    id: 2,
-    title: "A Simple Guide to Keep Track of Personal Finances, Budget Properly, and Track Expenses in Excel",
-    excerpt: "Blog for approval",
-    imageUrl: "/blog-two.png",
-    date: "Apr 1, 2025",
-    readTime: "N/A",
-    url: "https://docs.google.com/document/d/16IvDpdUsSSYrVFyET-6EZquZHR5AIC7M5JqOoIw6ETY/edit?tab=t.0#heading=h.lpxk9dbouiih",
-    status: "pending",
-  },
-  {
-    id: 3,
-    title: "Singapore Budget 2025 Simplified: What You Need to Know",
-    excerpt: "Blog for approval",
-    imageUrl: "/blog-three.png",
-    date: "Apr 21",
-    readTime: "5 mins",
-    url: "https://docs.google.com/document/d/10vpHuksHQXXIJoT86dKXVuiOhGbnFK1Qj8YEgiypWb4/edit?tab=t.0#heading=h.4qiq79s0g25r",
-    status: "pending",
-  },
-  {
-    id: 4,
-    title: "The Ultimate Guide to Mutual Funds in Singapore (2025 Edition)",
-    excerpt: "Blog for approval",
-    imageUrl: "/blog-four.png",
-    date: "Apr 4",
-    readTime: "10 mins",
-    url: "https://docs.google.com/document/d/1g-McI3baU1M4ZtkNJG0WrjeYwdrY_lG_52Qw11LmIHg/edit?tab=t.0#heading=h.ghp5sj7xuv9e",
-    status: "pending",
-  },
-  
-]
+/* outlines from outline.ts → convert to seed-compatible items          */
+const seedPosts = outlines.map((o, idx) => ({
+  id: idx + 5,   // unique numeric id
+  title: o.articleTitle,
+  excerpt: "Blog outline",
+  imageUrl: "/outline.png",             // as requested
+  date: o.date,
+  readTime: "N/A",
+  url: `/${o.slug}`,
+  status: "pending",
+}));
 
 type BlogCore = (typeof seedPosts)[number];
 type BlogPost = BlogCore & { key: string };
