@@ -29,195 +29,321 @@ export interface Outline {
 /* -------------------------------------------------------------------------- */
 
 export const outlines: Outline[] = [
-  /* ─────────────────────── 3. CPF vs SRS Comparison ──────────────────── */
+  /* ──────────────── 7. Working Holiday Visa Budget ─────────────── */
   {
-    slug: "cpf-vs-srs-outline",
-    date: "May 28, 2025",
-    seoTitle: "SEO Keyword Plan: CPF vs SRS – Tax Savings for Young Singaporeans",
+    slug: "working-holiday-visa-australia-budget-outline",
+    date: "June 25, 2025",
+    seoTitle: "SEO Keyword Plan: Working Holiday Visa Australia Budget Checklist for Singaporeans",
     seoDescription:
-      "A practical guide for Singaporeans in their 20s and 30s evaluating CPF top-ups versus SRS contributions to maximize tax savings and retirement growth.",
+      "A detailed guide for Singaporean travellers planning for an Australia Working Holiday Visa, covering all costs from visa fees to farm boots.",
     articleTitle:
-      "CPF vs SRS: A Young Singaporean’s Guide to Tax Savings and Retirement Planning",
+      "Working Holiday in Oz: Every Dollar You’ll Spend from Visa Fee to Vegemite (Singaporean Edition)",
     gapHeading: "Content Gap",
-    gapBody: `Existing content on CPF and SRS comparisons often targets a general audience or older demographics, lacking specificity for young Singaporeans. Key gaps include:
+    gapBody: `Official sources like australia.com and the Singapore High Commission website state basic costs (visa fee, proof of funds), but they:
 
-Lack of Personalized Scenarios: Few resources provide tailored advice for individuals in their 20s and 30s, considering their unique financial situations and goals.
+Superannuation refund process and timeline
 
-Insufficient Comparative Analysis: There's a scarcity of side-by-side comparisons illustrating the benefits and drawbacks of CPF top-ups versus SRS contributions, especially concerning tax savings and investment returns.
+Income tax obligations and potential refunds
 
-Limited Practical Tools: While calculators exist, they often lack user-friendly interfaces or fail to incorporate variables relevant to younger individuals, such as career progression and changing income levels.`,
+Regional work transport and gear (e.g. flights to remote farms, work boots)
+
+Ignore realistic lifestyle budgeting – food, shared housing, public transport, SIM cards, etc.
+
+Provide no consolidated budget checklist or download, leaving travellers to patch together advice from forums or TikTok`,
     fillGapHeading: "How to Fill the Gap",
-    fillGapBody: `To address these shortcomings, the article should:
+    fillGapBody: `Publish a visually structured, pre-departure budgeting guide that balances official requirements with real-world, on-the-ground advice. The content should:
 
-Provide Age-Specific Scenarios: Develop case studies for individuals aged 25, 30, and 35, demonstrating how CPF top-ups and SRS contributions impact their tax savings and retirement funds over time.
+Break down cost phases:
 
-Offer Comparative Tables: Create clear, side-by-side comparisons of CPF and SRS features, including contribution limits, tax relief, investment options, interest rates, and withdrawal conditions.
+Upfront costs: Visa (A$635), travel insurance (A$400–A$900), one-way flight (S$500–S$1,200), proof-of-funds (A$5,000)
 
-Include Interactive Calculators: Develop or link to intuitive calculators that allow users to input their income, age, and financial goals to determine the optimal strategy between CPF and SRS.
+Monthly living costs: rent in major cities (~A$700–A$1,000/month), groceries (~A$300–A$400), transport (Myki/Opal cards), leisure
 
-Incorporate Visual Aids: Use charts and infographics to illustrate potential growth of retirement savings under each scheme, making complex information more digestible.
+Regional/farm work expenses: transport to rural towns (Greyhound, Jetstar), work gear, seasonal rent
 
-Address Common Misconceptions: Clarify misunderstandings about CPF and SRS, such as the belief that funds are inaccessible or that one scheme is universally better than the other.
+Exit costs & returns: superannuation refund (~A$1,000+), tax refund (up to 13% of income if eligible)
 
-Highlight Flexibility and Liquidity: Discuss the flexibility of SRS in terms of investment choices and withdrawal options, compared to the more rigid structure of CPF, to help readers make informed decisions based on their risk tolerance and financial needs.
+Include a downloadable budget checklist (Google Sheets or PDF):
 
-Provide Actionable Steps: Conclude with a step-by-step guide on how young Singaporeans can start contributing to CPF or SRS, including links to relevant platforms and resources.
+Itemized line items with editable columns
 
-By focusing on the specific needs and concerns of young adults in Singapore, this article can serve as a comprehensive resource, empowering readers to make informed decisions about their retirement planning and tax-saving strategies.`,
+Sectioned into: Before You Go, Monthly, and When You Return
+
+Offer a sample starter budget:
+
+“With a S$8,000 budget, here’s how you could spend your first 3 months” — housing, setup, gap buffer
+
+Embed local context:
+
+Tips for finding cheap flights from Changi
+
+Mention common paths Singaporeans take (e.g. Melbourne or Perth start)
+
+Suggestions for safe regional work via official job boards or hostel notices
+
+Bonus tips:
+
+Reclaiming unused Opal card credit
+
+Applying for a TFN (Tax File Number) to avoid high withholding tax
+
+This article would be the first Singapore-focused WHV budgeting resource that combines transparency, practicality, and local relevance — earning links, shares, and trust from younger travellers.`,
     keywords: [
-      { keyword: "CPF vs SRS tax savings Singapore", intent: "Informational" },
-      { keyword: "CPF top-up vs SRS contribution for young adults", intent: "Informational" },
-      { keyword: "CPF SA vs SRS investment returns", intent: "Informational" },
-      { keyword: "CPF top-up tax relief Singapore", intent: "Transactional" },
-      { keyword: "SRS contribution tax benefits Singapore", intent: "Transactional" },
-      { keyword: "CPF vs SRS withdrawal rules Singapore", intent: "Informational" },
-      { keyword: "CPF top-up vs SRS for 30-year-old Singaporean", intent: "Informational" },
-      { keyword: "CPF vs SRS retirement planning Singapore", intent: "Informational" },
-      { keyword: "CPF vs SRS calculator Singapore", intent: "Transactional" },
-      { keyword: "CPF vs SRS which is better for tax relief", intent: "Informational" },
+      { keyword: "working holiday visa Australia budget checklist for Singaporeans", intent: "Informational" },
+      { keyword: "how much money to save for Australia working holiday", intent: "Informational" },
+      { keyword: "working holiday visa Australia Singapore cost", intent: "Transactional" },
+      { keyword: "Singaporean working holiday tax refund Australia", intent: "Informational" },
+      { keyword: "Australia working holiday farm work cost", intent: "Informational" },
+      { keyword: "budget breakdown working holiday visa Australia", intent: "Informational" },
+      { keyword: "travel insurance for working holiday visa Australia", intent: "Transactional" },
+      { keyword: "starter budget for WHV Australia Singapore", intent: "Informational" },
     ],
   },
 
-  /* ──────────────── 4. Salary Negotiation for Fresh Graduates ─────────────── */
+  /* ──────────────── 8. Saving for Overseas Master’s ─────────────── */
   {
-    slug: "fresh-grad-salary-negotiation-outline",
-    date: "June 4, 2025",
-    seoTitle: "SEO Keyword Plan: Salary Negotiation Tips for Fresh Graduates in Singapore",
+    slug: "saving-for-overseas-masters-outline",
+    date: "July 2, 2025",
+    seoTitle: "SEO Keyword Plan: Saving for Overseas Master’s Degree – Singapore Young Professionals Guide",
     seoDescription:
-      "A practical guide for Singaporean fresh graduates to navigate salary negotiations, considering local employment practices, CPF contributions, and cost-of-living factors.",
+      "A practical guide for Singaporean young professionals planning to fund their postgraduate studies abroad with clear milestones, tuition benchmarks, and FX planning.",
     articleTitle:
-      "Mastering Salary Negotiation: A Guide for Singaporean Fresh Graduates",
+      "Master Your Savings: Funding a Postgrad Abroad Without Selling Your Soul (Singapore Edition)",
     gapHeading: "Content Gap",
-    gapBody: `While numerous global articles provide general salary negotiation advice, few address the unique aspects of Singapore's employment landscape that fresh graduates must consider. Key gaps include:
+    gapBody: `Most current content falls into two extremes:
 
-CPF Contributions: In Singapore, employees contribute 20% of their salary to the Central Provident Fund (CPF), with employers adding 17%. This significantly affects take-home pay, yet many guides overlook this factor.
+Bank blog posts that preach vague budgeting or push education loans — without any real planning frameworks
 
-13th Month Bonus (AWS): The Annual Wage Supplement is common but not mandatory in Singapore. Fresh graduates may not understand its implications on total compensation.
+Forum threads (Seedly, Reddit) debating whether it’s “worth it” — often personal anecdotes, not actionable guidance
 
-Local Salary Benchmarks: Without knowledge of median starting salaries, such as the S$4,500 reported for 2024 graduates, fresh graduates may lack context for negotiations.
-
-Cultural Nuances: Singapore's cultural emphasis on humility may deter fresh graduates from negotiating assertively, a nuance not addressed in generic guides.`,
+There’s no structured content showing how to prepare financially over 3–5 years, with destination-specific tuition costs, FX risks, and scholarship opportunities clearly laid out for Singaporean readers.`,
     fillGapHeading: "How to Fill the Gap",
-    fillGapBody: `To address these shortcomings, the article should:
+    fillGapBody: `Publish a long-term financial planning guide that speaks directly to Singapore-based young professionals with ambitions of studying overseas. The article should include:
 
-Explain CPF Contributions: Detail how CPF deductions impact net salary and the importance of considering CPF in salary negotiations.
+5-Year Cash Flow Roadmap:
 
-Clarify the 13th Month Bonus: Discuss the prevalence of the AWS in Singapore and how it factors into annual compensation.
+Year-by-year savings milestones
 
-Provide Local Salary Data: Present up-to-date statistics on median starting salaries across various industries to help set realistic expectations.
+Annual savings targets based on income (e.g. “save 20% if you earn S$4k/month for 5 years = S$48k fund”)
 
-Offer Negotiation Strategies: Suggest culturally appropriate ways for fresh graduates to negotiate, such as expressing enthusiasm for the role while inquiring about compensation flexibility.
+Visual timeline with cost checkpoints and deadline reminders for application windows
 
-Include a Negotiation Checklist: Provide a step-by-step guide tailored to Singapore's context, covering research, understanding of benefits, and communication tips.
+Tuition Benchmarks by Country:
 
-Use Real-Life Scenarios: Incorporate case studies or testimonials from recent graduates who successfully negotiated their salaries, highlighting lessons learned.
+UK: £20,000–£40,000
 
-By focusing on these areas, the article will serve as a comprehensive resource for Singaporean fresh graduates, empowering them to navigate salary negotiations effectively within the local context.`,
+US: US$30,000–$70,000/year
+
+Australia: A$25,000–$50,000/year
+
+Include typical cost of living ranges and visa health insurance charges
+
+Scholarship & Grant Tracker:
+
+Table of common scholarships (e.g. Fulbright, Chevening, Australia Awards, NUS Overseas Grants)
+
+Include eligibility, coverage, links, and deadlines
+
+Bonus: Highlight hidden gems like employer education subsidies or local charity-based study funds
+
+FX Hedging Tips:
+
+Teach basic currency risk planning — opening multi-currency accounts, using FX-forward tools like DBS FX Pay or Revolut
+
+Show impact of a 5% currency swing on S$50k (e.g. S$2.5k variance)
+
+Other Considerations:
+
+Opportunity cost: losing income during study
+
+Post-study work rights: factor potential return on investment
+
+Building a “return runway”: save 3 months' expenses for re-entry into the job market after graduation
+
+This content positions your brand (or blog) as a go-to advisor for global education planning, offering clarity and control in a space that often feels like a financial black box.`,
     keywords: [
-      { keyword: "salary negotiation tips for fresh graduates Singapore", intent: "Informational" },
-      { keyword: "CPF contributions fresh graduates Singapore", intent: "Informational" },
-      { keyword: "13th month bonus Singapore fresh graduates", intent: "Informational" },
-      { keyword: "median starting salary Singapore 2024", intent: "Informational" },
-      { keyword: "how to negotiate first salary Singapore", intent: "Informational" },
-      { keyword: "fresh graduate salary expectations Singapore", intent: "Informational" },
-      { keyword: "negotiating salary with CPF considerations Singapore", intent: "Informational" },
-      { keyword: "entry-level salary negotiation Singapore", intent: "Informational" },
-      { keyword: "understanding total compensation Singapore", intent: "Informational" },
-      { keyword: "fresh grad salary negotiation checklist Singapore", intent: "Informational" },
+      { keyword: "saving for overseas masters degree Singapore", intent: "Informational" },
+      { keyword: "how to fund postgrad studies abroad Singapore", intent: "Informational" },
+      { keyword: "best countries for masters degree Singaporeans", intent: "Informational" },
+      { keyword: "masters degree savings plan Singapore", intent: "Transactional" },
+      { keyword: "scholarship and grant tracker for Singaporean students", intent: "Informational" },
+      { keyword: "exchange rate planning for studying abroad", intent: "Informational" },
+      { keyword: "how much to save for UK/US/Australia masters", intent: "Informational" },
+      { keyword: "budgeting for postgrad studies overseas", intent: "Informational" },
     ],
   },
 
-  /* ─────── 5. Student Loan Repayment for Fresh Graduates ─────── */
+  /* ──────────────── 9. Pop-Up Stall Startup Guide ─────────────── */
   {
-    slug: "student-loan-repayment-outline",
-    date: "June 11, 2025",
-    seoTitle: "SEO Keyword Plan: Accelerating Student Loan Repayment for Recent Graduates in Singapore",
+    slug: "pop-up-stall-costs-outline",
+    date: "July 9, 2025",
+    seoTitle: "SEO Keyword Plan: Weekend Pop-Up Stall Startup Costs and Profit Margins in Singapore (2025)",
     seoDescription:
-      "A comprehensive guide for Singaporean fresh graduates on effectively managing and expediting the repayment of student loans, considering local financial structures and obligations.",
+      "A comprehensive guide for aspiring vendors in Singapore to understand real startup costs, licensing, and profitability of weekend pop-up stalls.",
     articleTitle:
-      "Accelerating Student Loan Repayment: A Guide for Singaporean Fresh Graduates",
+      "Market Hustle: Launch a Pop-Up Stall in Singapore Without Burning Cash (2025 Edition)",
     gapHeading: "Content Gap",
-    gapBody: `While various resources discuss student loan repayment in Singapore, they often lack a consolidated, actionable approach tailored for recent graduates. Existing content tends to:
+    gapBody: `Most existing content (e.g. Facebook Event pages, general startup lists) offers only surface-level info like booth rental fees, but skips over:
 
-Fragment Information: Details about MOE Tuition Fee Loans, CPF Education Loans, and private loans are scattered across different platforms, making it challenging for graduates to find cohesive guidance.
+Actual licensing requirements (e.g. SFA or NEA approval for F&B stalls, UOB POS terminal licensing for digital payments)
 
-Lack Practical Budgeting Strategies: Few resources provide step-by-step budgeting plans that integrate loan repayments with other financial obligations like rent, CPF contributions, and daily expenses.
+Hidden costs: POS terminal rentals, packaging, insurance, branding, sample production, cleaning deposits
 
-Overlook Early Repayment Benefits: There's limited discussion on the advantages of early repayment, such as interest savings and improved credit scores, and how to achieve it.
+Sales conversion assumptions: Realistic footfall-to-sales ratios based on event type (e.g. art market vs. farmers’ market)
 
-Neglect Emotional and Psychological Aspects: Managing debt can be stressful, yet there's minimal content addressing the emotional well-being of graduates navigating loan repayments.`,
+No working P&L template or real founder interviews, leaving new vendors to “trial by fire”`,
     fillGapHeading: "How to Fill the Gap",
-    fillGapBody: `To address these shortcomings, the article should:
+    fillGapBody: `Publish a realistic, first-timer-friendly guide that walks readers through every cost and decision point in building a profitable pop-up stall. The article should include:
 
-1. Consolidate Loan Information: Provide a clear comparison of MOE Tuition Fee Loans, CPF Education Loans, and private loans, highlighting interest rates, repayment terms, and eligibility criteria.
+Step-by-step Startup Cost Breakdown:
 
-2. Offer Practical Budgeting Tools: Introduce budgeting templates or calculators that help graduates allocate their income effectively, ensuring timely loan repayments while covering essential expenses.
+Booth rental: S$150–S$500/weekend depending on location
 
-3. Emphasize Early Repayment Strategies: Discuss methods to accelerate loan repayment, such as making lump-sum payments, increasing monthly installments, or utilizing bonuses and part-time income.
+Licensing: SFA/F&B permits (S$100+), insurance (~S$50–S$100), public liability
 
-4. Address Emotional Well-being: Include tips on managing stress related to debt, such as setting achievable goals, seeking support, and celebrating repayment milestones.
+POS rentals: S$60–S$80/weekend or free with bank setup
 
-5. Provide Real-life Case Studies: Share stories of individuals who successfully managed to repay their student loans quickly, detailing the strategies they employed and lessons learned.
+Signage, tables, stools, banners: S$100–S$200 one-time
 
-6. Include Visual Aids: Use infographics and charts to illustrate repayment timelines, budgeting allocations, and the impact of early repayments on interest savings.
+Packaging, samples, prep materials: ~S$200 for soft launch
 
-By delivering a comprehensive, empathetic, and practical guide, this article can serve as a valuable resource for Singaporean fresh graduates aiming to navigate and expedite their student loan repayments effectively.`,
+Optional: shared logistics or rental marketplace tips for cutting setup costs
+
+Profitability Insight:
+
+“You need to convert ~3–6% of 1,000 passersby at S$10–S$15 per sale to break even”
+
+Margin math: COGS at 35–50% of sale price = viable? Not if rent eats half your day
+
+Licensing Checklist:
+
+What licenses are needed for food vs. retail vs. services
+
+Where to apply (SFA, GoBusiness, event organizer pre-approvals)
+
+Lead times and fees for temporary food handling licenses
+
+Case Study Interviews:
+
+Profiles of 2–3 successful stall owners (e.g. home baker turned weekend warrior, soap crafter, thrift seller)
+
+Ask about average sales, initial investment, “what I wish I knew” insights
+
+Local Venue Tips:
+
+Compare weekend events: Artbox, Boutiques Fair, Crane Living, Farmers Markets
+
+Footfall, booth fees, niche relevance
+
+This article would serve as Singapore’s most complete playbook for launching a weekend stall, helping readers avoid rookie mistakes and confidently test a business idea — while making it financially viable.`,
     keywords: [
-      { keyword: "repay student loan quickly Singapore", intent: "Informational" },
-      { keyword: "student loan repayment strategies Singapore", intent: "Informational" },
-      { keyword: "MOE Tuition Fee Loan repayment Singapore", intent: "Informational" },
-      { keyword: "CPF Education Loan repayment plan", intent: "Informational" },
-      { keyword: "student loan budgeting tips Singapore", intent: "Informational" },
-      { keyword: "early student loan repayment benefits Singapore", intent: "Informational" },
-      { keyword: "managing student debt Singapore graduates", intent: "Informational" },
-      { keyword: "student loan interest rates Singapore", intent: "Informational" },
-      { keyword: "education loan repayment calculator Singapore", intent: "Transactional" },
-      { keyword: "student loan refinancing options Singapore", intent: "Transactional" },
+      { keyword: "weekend pop-up stall startup costs Singapore", intent: "Informational" },
+      { keyword: "pop-up booth rental Singapore cost 2025", intent: "Transactional" },
+      { keyword: "profit margin for pop-up stall Singapore", intent: "Informational" },
+      { keyword: "how to start a weekend stall in Singapore", intent: "Informational" },
+      { keyword: "pop-up licensing and permits Singapore", intent: "Informational" },
+      { keyword: "best places to set up pop-up stall Singapore", intent: "Informational" },
+      { keyword: "P&L template for pop-up business Singapore", intent: "Transactional" },
+      { keyword: "low-cost business ideas Singapore 2025", intent: "Informational" },
     ],
   },
 
-  /* ─────────────── 6. CPF vs Cash for HDB Downpayment ─────────────── */
+  /* ──────────────── 10. Micro Wedding Cost Guide ─────────────── */
   {
-    slug: "cpf-vs-cash-hdb-downpayment-outline",
-    date: "June 18, 2025",
-    seoTitle: "SEO Keyword Plan: CPF vs Cash for HDB Downpayment in Singapore",
+    slug: "micro-wedding-cost-outline",
+    date: "July 16, 2025",
+    seoTitle: "SEO Keyword Plan: Micro Wedding Cost in Singapore (2025 Edition)",
     seoDescription:
-      "A comprehensive guide for Singaporean first-time homebuyers evaluating the use of CPF savings versus cash for HDB downpayments, considering long-term financial implications.",
+      "A transparent guide to planning a stylish micro wedding in Singapore under S$20k, with venue options, downloadable budget template, and tips.",
     articleTitle:
-      "CPF vs Cash: Making the Right Choice for Your HDB Downpayment in Singapore",
+      "Say ‘I Do’ to a Budget: How to Plan a Chic Micro Wedding in Singapore for Under S$20k (2025 Guide)",
     gapHeading: "Content Gap",
-    gapBody: `While official sources provide guidelines on using CPF for HDB downpayments, they often lack comprehensive comparisons between using CPF savings and cash. Key gaps include:
+    gapBody: `Most wedding-related content in Singapore is still focused on large-scale banquets and hotel ballroom packages, quoting average budgets of S$35k–S$60k. Existing sites (e.g. Dr Wealth, Raffles Credit) discuss wedding loans or how to afford a “traditional” wedding, but completely ignore:
 
-Lack of Comparative Scenarios: Few resources offer side-by-side analyses of the long-term financial impacts of using CPF versus cash for downpayments, including effects on retirement savings and loan interest.
+The rising trend of micro weddings post-pandemic
 
-Insufficient Information on Accrued Interest: Many first-time buyers are unaware of the concept of CPF accrued interest and how it affects the amount to be refunded to their CPF account upon selling the property.
+Realistic cost templates for 30–60 pax events
 
-Limited Guidance on Optimal Strategies: There's a scarcity of advice on how to balance CPF and cash usage to optimize financial outcomes, considering factors like investment opportunities and emergency funds.`,
+A clear comparison of venue packages vs. DIY setups
+
+Budget-saving vendor tips (e.g. freelance photographers, non-bridal label gowns)`,
     fillGapHeading: "How to Fill the Gap",
-    fillGapBody: `To address these shortcomings, the article should:
+    fillGapBody: `Publish a transparent, visually rich guide that empowers couples to plan a micro wedding within a S$15k–S$20k range. The content should include:
 
-1. Provide Comparative Case Studies: Illustrate scenarios where one buyer uses CPF for the full downpayment while another uses a combination of CPF and cash, analyzing the long-term effects on retirement savings and loan interest paid.
+✅ Line-Item Micro Wedding Budget (Downloadable Template)
 
-2. Explain CPF Accrued Interest: Detail how using CPF for housing affects the amount to be refunded upon property sale, including the calculation of accrued interest and its implications on future financial planning.
+Venue (3-hr rental or brunch package): S$3,000–S$6,000
 
-3. Offer Strategic Recommendations: Advise on optimal strategies for combining CPF and cash payments, taking into account current CPF interest rates, potential investment returns on cash, and maintaining liquidity for unforeseen expenses.
+Catering (per pax x 40–60 guests): S$3,000–S$6,000
 
-4. Include Visual Aids: Use charts and tables to compare the financial outcomes of different payment methods, making complex information more accessible and understandable.
+Photography/videography (4 hrs): S$800–S$1,500
 
-5. Update with Current Data: Ensure all information reflects the latest CPF policies, HDB loan structures, and market interest rates to provide accurate and relevant guidance.
+Gown/suit rental: S$500–S$1,000
 
-By delivering a detailed, scenario-based analysis, this article can serve as a valuable resource for Singaporean first-time homebuyers, empowering them to make informed decisions about using CPF savings or cash for their HDB downpayments.`,
+Florals & styling: S$800–S$1,200
+
+Solemnizer/admin fees: S$300
+
+DIY décor, printing, etc.: S$300–S$800
+
+TOTAL: ~S$15,000–S$20,000
+
+🏛️ List of Affordable Micro Wedding Venues:
+
+The Secret Patio (Club Street)
+
+The Refinery
+
+White Rabbit (brunch weddings)
+
+Hort Park or Fort Canning event spaces
+
+The Projector (for film-buff couples)
+
+Include rental rates, guest capacity, and styling flexibility
+
+🔄 Package vs. DIY Comparison Table
+
+Cost predictability: High vs Medium
+
+Personalization: Medium vs High
+
+Vendor flexibility: Low vs High
+
+Stress level: Low vs High
+
+Total cost (avg): S$16k–S$18k vs S$12k–S$20k
+
+🎯 Money-Saving Tips:
+
+Off-peak timing (weekday brunches, late lunches)
+
+Bundle freelance creatives (photo + video)
+
+Skip bridal boutiques – buy white dress online or rent via style portals
+
+Use friends for live music or cake baking
+
+Rent instead of buy decor (e.g. floral arches, fairy lights)
+
+📥 Free Download
+
+Editable Micro Wedding Budget Planner (Google Sheet)
+
+Sample Timeline for 3-Month Planning
+
+Bonus: Vendor checklist with average rates (updated for 2025)
+
+This content becomes the go-to micro wedding budgeting guide in Singapore — realistic, empowering, and trend-aware, helping couples celebrate love without financial regret.`,
     keywords: [
-      { keyword: "should I use CPF or cash for HDB downpayment Singapore", intent: "Informational" },
-      { keyword: "CPF vs cash HDB downpayment Singapore", intent: "Informational" },
-      { keyword: "HDB downpayment CPF rules Singapore", intent: "Informational" },
-      { keyword: "CPF accrued interest HDB downpayment", intent: "Informational" },
-      { keyword: "CPF vs cash property purchase Singapore", intent: "Informational" },
-      { keyword: "CPF OA usage for HDB downpayment", intent: "Informational" },
-      { keyword: "HDB downpayment options Singapore", intent: "Informational" },
-      { keyword: "CPF accrued interest implications", intent: "Informational" },
-      { keyword: "CPF vs cash home loan Singapore", intent: "Informational" },
-      { keyword: "CPF vs cash for HDB loan repayment", intent: "Informational" },
+      { keyword: "micro wedding cost Singapore 2025", intent: "Informational" },
+      { keyword: "affordable wedding packages Singapore 2025", intent: "Transactional" },
+      { keyword: "intimate wedding venues Singapore", intent: "Transactional" },
+      { keyword: "micro wedding Singapore under 20k", intent: "Transactional" },
+      { keyword: "wedding cost breakdown Singapore 2025", intent: "Informational" },
+      { keyword: "DIY wedding vs package Singapore", intent: "Informational" },
+      { keyword: "how to plan a small wedding in Singapore", intent: "Informational" },
+      { keyword: "best wedding venues for small weddings Singapore", intent: "Transactional" },
     ],
   },
 ];
